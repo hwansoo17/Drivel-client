@@ -1,14 +1,26 @@
 import React from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
-import { useDispatch } from 'react-redux';
+import {
+  View,
+  Text,
+  Button,
+  StyleSheet,
+  ScrollView,
+  SafeAreaView,
+} from 'react-native';
+import {useDispatch} from 'react-redux';
 
 const HomeMain = () => {
-
   return (
-    <View style={styles.container}>
-      <Text>Home Screen</Text>
-
-    </View>
+    <>
+      <View>
+        <Text></Text>
+      </View>
+      <ScrollView>
+        <View style={styles.container}>
+          <Text>Home Screen</Text>
+        </View>
+      </ScrollView>
+    </>
   );
 };
 
